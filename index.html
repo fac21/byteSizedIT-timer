@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="style.css"></link>
+  </head>
+
+  <body>
+
+    <div id="verticalCentre">
+
+      <header>
+        <h1 id="title">
+          P
+          <span><img class="pom" src="noun_pomodoro_921666.svg"></span>
+          M
+          <span><img class="pom" src="noun_pomodoro_921667.svg"></span>
+          D
+          <span><img class="pom" src="noun_pomodoro_921666.svg"></span>
+          R
+          <span><img class="pom" src="noun_pomodoro_921667.svg"></span>
+        </h1>
+      </header>
+
+      <div id="banner">
+        <p id="text">Move slider to set your timer, click start & smash it!</p>
+      </div>
+
+
+      <div id="slider">
+        <input type="range" min="0" max="50" value="25" class="slider" id="studyRange"><br>
+
+        <!--<button id="default">reset slider</button>-->
+      </div>
+
+      <div id="timer">
+        <p id="countdown"><span><img class="clock" src="noun_Alarm Clock_1.svg"></span>  25 mins 00 secs</p>
+
+        <button id="start">start</button>
+        <button id="cancel">cancel</button>     
+      </div>
+
+    </div>
+
+    <div id="credits">
+      <cite><a href="https://thenounproject.com/mikicon/collection/pomodoro/" target="_blank">Pomodoro images</a> by mikicon from the <a href="https://thenounproject.com" target="_blank">Noun Project</a></cite><br>
+      <cite><a href="https://thenounproject.com/indygo/collection/clock-2/" target="_blank">Alarm Clock images</a> by kiddo from the <a href="https://thenounproject.com" target="_blank">Noun Project</a></cite>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>  
+
+</html>

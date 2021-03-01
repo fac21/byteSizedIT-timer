@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 3.5vmin;
+}
+
+body {
+  text-align: center;
+}
+
+#verticalCentre {
+  height: 90vh;
+  vertical-align: centre;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#title {
+  font-size: 3rem;
+}
+
+.pom {
+  position: relative;
+  top: 1.2rem;
+  width: 3rem;
+}
+
+@media (orientation:landscape) {
+  .slider{
+    width: 50vw;
+  }
+} 
+
+@media (orientation:portrait) {
+  .slider{
+    width: 75vw;
+  }
+} 
+
+.slider {
+  -webkit-appearance: none;
+  height: 1rem;
+  margin-top: 1rem;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 1.25rem;
+  height: 1.25rem;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.clock {
+  position: relative;
+  top: 1.75vh;
+  width: 5vh;
+  animation: ringing 0.5s infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes ringing {
+  0% { transform: rotate(0);}
+  33% { transform: rotate(30);}
+  66% { transform: rotate(0);}
+  100% { transform: rotate(-30);}
+}
+
+#countdown {
+  font-size: 6vmin;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  font-size: 0.6rem;
+  font-weight: bold;
+  height: 1.25rem;
+  width: 2.5rem;
+  background-color: #d3d3d3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+#credits {
+  font-size: 0.5rem;
+  position: fixed;
+  position: -webkit- fixed;
+  right: 5px;
+  bottom: 5px;
+}
+
+cite {
+  font-style: normal;
+}
