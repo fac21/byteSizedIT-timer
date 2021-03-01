@@ -4,7 +4,7 @@
 
 This repo is for my Precourse Week 4 project.
 
-The project was to build a “Pomodoro timer” - a productivity tool that helps you time alternating periods of working and resting. For more details, click [here](https://learn.foundersandcoders.com/course/syllabus/precourse-4/schedule/). Click [here](fac21.github.io/bytesizedit-timer/) to see my solution. 
+The project was to build a “Pomodoro timer” - a productivity tool that helps you time alternating periods of working and resting. For more details, click [here](https://learn.foundersandcoders.com/course/syllabus/precourse-4/schedule/). Click [here](https://fac21.github.io/byteSizedIT-timer/) to see my solution. 
 
 Having encorporated similar functionality in my application [website](https://bytesizedit.github.io/), I found the task a really useful exercise in reviewing my understanding of the setInterval method, as well as event listeners and updating html elements. 
 
